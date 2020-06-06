@@ -1,0 +1,13 @@
+git init 
+git remote add origin "link"
+git pull origin branchName (master/develop/branches)
+git flow init 
+git flow feature start featureName
+git flow feature finish
+git flow release start "versionNumber" (0.1/0.1.1)
+git flow release finish 
+// you would get a text editor to add the description
+//Use Esc : wq --> to quit
+git checkout develop
+git push origin --all --follow-tags
+//Done 
