@@ -10,4 +10,5 @@ git flow release finish
 //Use Esc : wq --> to quit
 git checkout develop
 git push origin --all --follow-tags
-//Done 
+//Done with feature 
+//Added in release
